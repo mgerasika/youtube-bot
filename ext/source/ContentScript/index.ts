@@ -22,7 +22,7 @@ window.addEventListener("scroll", () => {
       const el = rootElements[i];
       const linkElement = el.querySelector("a[id=author-text]");
       const id = linkElement.getAttribute("href").replace("/channel/", "");
-      console.log(id);
+      console.log("id", id);
       rootElements[i].appendChild(div.cloneNode(true));
     }
   }, 400);

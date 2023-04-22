@@ -23,7 +23,6 @@ export interface IUserDto {
 }
 export interface IPostUser {
   id: string;
-  rate?: number;
 }
 export interface IPutUser {
   rate?: number;

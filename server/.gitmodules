@@ -1,0 +1,6 @@
+[submodule "typescript-to-swagger"]
+	path = typescript-to-swagger
+	url = https://github.com/mgerasika/typescript-to-swagger.git
+[submodule "swagger-to-typescript"]
+	path = swagger-to-typescript
+	url = https://github.com/mgerasika/swagger-to-typescript
